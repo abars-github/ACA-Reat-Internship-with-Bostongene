@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.with-line-through {
+  text-decoration: line-through;
+}
+
+body {
+  background-color: gray;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+}
+button:hover{
+  background-color: #2980b9; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+input{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+li span {
+  margin-right: 10px; 
+  margin-bottom: 10px;
+
+}
+
+li button {
+  margin-left: 5px; 
+  margin-bottom: 10px;
+
+}
+
+
+
